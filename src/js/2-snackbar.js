@@ -39,7 +39,7 @@ const snackbar = {
           closeOnClick: true,
           timeout: 3500,
           close: false,
-          iconUrl: '../img/izi-toast-svg/success-icon.svg',
+          iconUrl: './img/izi-toast-svg/success-icon.svg',
         });
 
         // console.log(chosenState);
@@ -55,7 +55,7 @@ const snackbar = {
           closeOnClick: true,
           timeout: 3500,
           close: false,
-          iconUrl: '../img/izi-toast-svg/error-icon.svg',
+          iconUrl: './img/izi-toast-svg/error-icon.svg',
         });
 
         // console.log(chosenState);

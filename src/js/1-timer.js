@@ -48,7 +48,7 @@ const timer = {
           closeOnClick: true,
           timeout: 3500,
           close: false,
-          iconUrl: '../img/izi-toast-svg/success-icon.svg',
+          iconUrl: './img/izi-toast-svg/success-icon.svg',
         });
 
         startTimerBtnEl.disabled = false;
@@ -62,7 +62,7 @@ const timer = {
           closeOnClick: true,
           timeout: 3500,
           close: false,
-          iconUrl: '../img/izi-toast-svg/error-icon.svg',
+          iconUrl: './img/izi-toast-svg/error-icon.svg',
         });
 
         startTimerBtnEl.disabled = true;
