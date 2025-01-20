@@ -8,6 +8,9 @@ import iziToast from 'izitoast';
 // Додатковий імпорт стилів
 // import "izitoast/dist/css/iziToast.min.css";
 
+import errorIcon from '/img/izi-toast-svg/error-icon.svg';
+import successIcon from '/img/izi-toast-svg/success-icon.svg';
+
 const timer = {
   userSelectedDate: null,
   deadlineintervalId: null,
@@ -48,7 +51,7 @@ const timer = {
           closeOnClick: true,
           timeout: 3500,
           close: false,
-          iconUrl: './img/izi-toast-svg/success-icon.svg',
+          iconUrl: successIcon,
         });
 
         startTimerBtnEl.disabled = false;
@@ -62,7 +65,7 @@ const timer = {
           closeOnClick: true,
           timeout: 3500,
           close: false,
-          iconUrl: './img/izi-toast-svg/error-icon.svg',
+          iconUrl: errorIcon,
         });
 
         startTimerBtnEl.disabled = true;

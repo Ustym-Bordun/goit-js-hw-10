@@ -3,6 +3,9 @@ import iziToast from 'izitoast';
 // Додатковий імпорт стилів
 // import "izitoast/dist/css/iziToast.min.css";
 
+import errorIcon from '/img/izi-toast-svg/error-icon.svg';
+import successIcon from '/img/izi-toast-svg/success-icon.svg';
+
 const snackbar = {
   formEl: document.querySelector('.form'),
   delay: null,
@@ -39,7 +42,7 @@ const snackbar = {
           closeOnClick: true,
           timeout: 3500,
           close: false,
-          iconUrl: './img/izi-toast-svg/success-icon.svg',
+          iconUrl: successIcon,
         });
 
         // console.log(chosenState);
@@ -55,7 +58,7 @@ const snackbar = {
           closeOnClick: true,
           timeout: 3500,
           close: false,
-          iconUrl: './img/izi-toast-svg/error-icon.svg',
+          iconUrl: errorIcon,
         });
 
         // console.log(chosenState);
